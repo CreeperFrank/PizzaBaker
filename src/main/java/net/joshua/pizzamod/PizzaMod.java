@@ -52,6 +52,7 @@ public class PizzaMod
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RAW_DOUGH);
+            event.accept(ModItems.WHEAT_FLOUR);
         }
     }
 
