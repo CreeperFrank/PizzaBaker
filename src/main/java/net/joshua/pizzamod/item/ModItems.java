@@ -16,6 +16,9 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_DOUGH = ITEMS.register("raw_dough",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> WHEAT_FLOUR = ITEMS.register("wheat_flour",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

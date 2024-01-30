@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.PIZZA.get());
                         pOutput.accept(ModItems.RAW_DOUGH.get());
+                        pOutput.accept(ModItems.WHEAT_FLOUR.get());
                     })
                     .build());
 
