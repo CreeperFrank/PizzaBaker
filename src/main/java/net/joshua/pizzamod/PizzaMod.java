@@ -1,6 +1,7 @@
 package net.joshua.pizzamod;
 
 import com.mojang.logging.LogUtils;
+import net.joshua.pizzamod.block.ModBlocks;
 import net.joshua.pizzamod.item.ModCreativeModeTabs;
 import net.joshua.pizzamod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -34,6 +35,7 @@ public class PizzaMod
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -1,6 +1,7 @@
 package net.joshua.pizzamod.item;
 
 import net.joshua.pizzamod.PizzaMod;
+import net.joshua.pizzamod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +21,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.PIZZA.get());
                         pOutput.accept(ModItems.RAW_DOUGH.get());
                         pOutput.accept(ModItems.WHEAT_FLOUR.get());
+
+
+                        pOutput.accept(ModBlocks.PIZZA_OVEN.get());
                     })
                     .build());
 
